@@ -1,0 +1,11 @@
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\bin\Debug\Calculadora_v1.exe.config
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\bin\Debug\Calculadora_v1.exe
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\bin\Debug\Calculadora_v1.pdb
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.csproj.AssemblyReference.cache
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.csproj.SuggestedBindingRedirects.cache
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.Calculator_Form.resources
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.Properties.Resources.resources
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.csproj.GenerateResource.cache
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.csproj.CoreCompileInputs.cache
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.exe
+E:\C0D1NG\Ficheiros\C#\Calculadora_v1\Calculadora_v1\obj\Debug\Calculadora_v1.pdb
