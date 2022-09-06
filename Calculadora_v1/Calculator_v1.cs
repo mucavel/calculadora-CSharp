@@ -16,7 +16,7 @@ namespace Calculadora_v1
         string secondNumber = "";
         string input = "";
         string MathOperator = "";
-        dynamic num1, num2, result;
+        double num1, num2, result;
         public Calculator_Form()
         {
             InitializeComponent();
@@ -104,7 +104,7 @@ namespace Calculadora_v1
         private void DotBtn_Click(object sender, EventArgs e)
         {
             calculatorDisplay.Text = "";
-            input += ".";
+            input += ",";
             calculatorDisplay.Text = input;
         }
 
@@ -118,26 +118,52 @@ namespace Calculadora_v1
 
         private void DivideBtn_Click(object sender, EventArgs e)
         {
-
+            firstNumber = input;
+            calculatorDisplay.Text = "0";
+            input = "";
+            MathOperator = "/";
         }
 
         private void MinusBtn_Click(object sender, EventArgs e)
         {
-
+            firstNumber = input;
+            calculatorDisplay.Text = "0";
+            input = "";
+            MathOperator = "-";
         }
 
         private void PlusBtn_Click(object sender, EventArgs e)
         {
-
+            firstNumber = input;
+            calculatorDisplay.Text = "0";
+            input = "";
+            MathOperator = "+";
         }
 
         private void EqualBtn_Click(object sender, EventArgs e)
         {
             secondNumber = input;
-            //num1 = Convert.ToDecimal(firstNumber)
-            //num2 = Convert.ToDouble(secondNumber);
-            //result = num1 * num2;
-            calculatorDisplay.Text = Convert.ToString(Convert.ToDouble(firstNumber) * Convert.ToDouble(secondNumber));
+            num1 = Double.Parse(firstNumber);
+            num2 = Double.Parse(secondNumber);
+
+            switch (MathOperator)
+            {
+                case "*":
+                    calculatorDisplay.Text = Convert.ToString(num1 * num2);
+                    break;
+                case "/":
+                    calculatorDisplay.Text = Convert.ToString(num1 / num2);
+                    break;
+                case "-":
+                    calculatorDisplay.Text = Convert.ToString(num1 - num2);
+                    break;
+                case "+":
+                    calculatorDisplay.Text = Convert.ToString(num1 + num2);
+                    break;
+                default:
+                    calculatorDisplay.Text = "Erro.";
+                    break;
+            }
         }
     }
 }
